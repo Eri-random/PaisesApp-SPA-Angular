@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Country } from '../../interfaces/pais.interface';
 import { PaisService } from '../../services/pais.service';
 
@@ -29,6 +29,12 @@ export class PorPaisComponent {
         this.hayError=true;
         this.paises=[];
     });
+  }
+
+  sugerencias(termino: string){
+    this.hayError=false;
+    
+    //TODO: crear sugerencias
   }
 
 }
