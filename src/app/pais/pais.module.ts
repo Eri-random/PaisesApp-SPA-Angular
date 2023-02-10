@@ -13,10 +13,10 @@ import { PaisInputComponent } from './components/pais-input/pais-input.component
 
 @NgModule({
   declarations: [
+    PorRegionComponent,
     PorPaisComponent,
     VerPaisComponent,
     PorCapitalComponent,
-    PorRegionComponent,
     PaisTablaComponent,
     PaisInputComponent
   ],
